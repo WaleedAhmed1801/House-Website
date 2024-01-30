@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header{
+    min-height: 90vh;
+    width: 100%;
+    background-image: url('./Luxury\ House\ Wallpapers.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 4% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav  i{
+    font-size: 1.5em;
+}
+nav a{
+    font-size: 1.5em;
+    color: white;
+}
+nav a:hover{
+    color:  rgb(62, 179, 237);
+    transition: 0.9s;
+}
+.nav-item{
+    flex: 1;
+    text-align: right;
+}
+.nav-item a{
+    padding: 6px 10px;
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+}
+.nav-item a:hover{
+    background-color: rgb(62, 179, 237);
+    border-radius: 7px;
+    color: white;
+    transition: 0.9s;
+}
+nav >i{
+    color: white;
+    background: rgb(62, 179, 237);
+    width: 50px;
+    height: 35px;
+    font-size: 1.5em;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px;
+}
+
+/* navbar complete  */
+
+.bg-item{
+    padding-top: 8%;
+    padding-left: 6%;
+    font-size: 1.6em;
+    color: white;
+    margin: 5px;
+}
+.btn1,.btn2{
+    background-color: rgb(2, 144, 215);
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    margin: 10px;
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+.bg-item>h1{
+    font-size: 2.1em;
+}
+
+/* background item completed  */
+
+.content-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.image{
+    background-image: url('./pexels-vecislavas-popa-1571460.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35%;
+    height: 55vh;
+    border-radius: 8px;
+}
+.content{
+    width: 35%;
+    height: 55vh;
+    font-size: 0.9em; 
+    padding: 6px;
+}
+.text #awz{
+    color: crimson;
+}
+.text2 p{
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+    margin: 2px;
+}
+.text2 span{
+    color:blue;
+}
+
+/* Side Bar Start  */
+
+.sidebar{
+    padding-top: 10px;
+    width: 20%;
+    height: 55vh;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 0.8em;
+}
+.btn3{
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(2, 144, 215);
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    cursor: pointer;   
+}
+.sidebar,#heading{
+    text-align: center;
+}
+input{
+    width: 90%;
+    height: 50px;
+    border-style: none;
+    padding-left: 6px;
+}
+.sidebar p{
+    display: inline-block;
+    padding: 4px;
+}
+/* side bar completed  */
+
+
+.bg-image{
+    background-image: url('./beautiful-modern-house-exterior-with-carport-modern-residential-district-and-minimalist-building-concept-by-ai-generated-free-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+.material{
+    color: white;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 1.4em;
+    position: relative;
+}
+.z-image{
+    background-image: url('./My_Modern_Home_Plan.b5be94ba.fill-1920x1080.format-webp.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 40vh;
+    z-index: 1;
+    position: relative;
+    top: 6%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+/* content 2 completed image & text & zindex image  */
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    font-size: 1em;
+}
+.box{
+    width: 220px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    font-weight: bold;
+    border-radius: 10px;
+}
+span{
+    color: crimson;
+}
+.box i{
+    color:rgb(2, 144, 215);
+    font-size: 1.5em;
+    position: relative;
+    padding-left: 200px;
+}
+
+/* cards section completed  */
+
+.content3{
+    width: 100%;
+    height: 20vh;
+    padding: 2% 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content3-item a{
+    padding: 8px;
+    margin: 5px;
+    font-size: 0.9em; 
+    align-items: center;
+    background-color:rgb(2, 144, 215);
+    color: white;
+    border-radius: 5px;
+}
+.content3 #xyz{
+    color: red;
+}
+.heading-a{
+    font-size: 0.9em;
+}
+
+/* content3 complete  */
+
+.content4{
+    width: 100%;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+.sidebar2{
+    width: 22%;
+    height: 50vh;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+.sidebar2 input{
+    width: 150px;
+    border-radius: 6px;
+}
+.luxury{
+    width: 50%;
+    height: 55vh;
+    background-image: url('./RENDERS_AVINASH_03_Photo_-_3.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.sidebar3{
+    width: 24%;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+.btn4{
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    border:none;
+}
+
+/* content 4 completed  */
+
+.heading{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.heading #waz{
+    color: crimson;
+}
+
+.cards2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+}
+.abc{
+    width: 25%;
+    height: 65vh;
+    padding: 2px;
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+.abc img{
+    border-radius: 6px;
+    width: 100%;
+    height: 270px;
+}
+.btn5{
+    width: 100px;
+    height: 30px;
+    background-color:darksalmon;
+    border: none;
+    border-radius: 5px;
+}
+.abc p{
+    padding: 4px;
+    display: inline-block;
+}
+.abc #op{
+    color: crimson;
+}
+
+/* cards 2 completed  */
+
+.z-bg{
+    width: 100%;
+     height: 60vh;
+    background-image: url('./pexels-thanhhoa-tran-1498792.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+.z-imgform{
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+    position: relative;
+    top: 50%;
+    left: 8%;
+    border-radius: 5px;
+}
+.form1{
+    background-color: whitesmoke;
+    width: 35%;
+    height: 60vh;
+    z-index: 1;
+    position: relative;
+    top: -35%;
+    left: 60%;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.btn6{
+    width: 140px;
+    height: 35px; 
+    background-color: black;
+    color: white;
+}
+textarea{
+    width: 90%;
+    border: none;
+}
+
+
+@media (max-width: 921px) {
+    nav >i{
+        visibility: visible;
+    }
+    .nav-item a{
+        display: none;
+    } 
+}
+
+@media (max-width: 868px) {
+    .sidebar3{
+        font-size: 1em;
+    }
+    .btn4{
+        width: 140px;
+        font-size: 0.9em;
+    }
+    .btn3{
+        width: 130px;
+    }
+}
+
+@media (max-width: 720px) {
+    .header{
+        min-height: 70vh;
+    }
+    .btn4{
+        width: 110px;
+        height: 30px;
+        font-size: 0.7em;
+    }
+    .sidebar3{
+        font-size: 0.9em;
+    }
+    .btn3{
+        width: 120px;
+        height: 30px;
+    }
+    .box{
+        width: 150px;
+        height: 90px;
+    }
+    .box i{
+        padding-left: 130px;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .content-item{
+        flex-direction: column;
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        font-size: 1.1em;
+        padding-top: 10px;
+        margin: 10px;
+    }
+    .image{
+        width: 100%;
+        height: 40vh;
+        padding-top: 10px;
+        margin: 10px;
+    }
+    .sidebar{
+        width: 100%;
+        height: 50vh;
+        font-size: 1.1em;
+        padding-top: 10px;
+        margin: 10px;
+    }
+    .z-image{
+        width: 70%;
+        height: 25vh;
+        top: 4%;
+        left: 15%;
+    }
+    .bg-image{
+        height: 45vh;
+    }
+    .material{
+        padding-top: 100px;
+    }
+    .content4{
+        flex-direction: column;
+        width: 100%;
+    }
+    .sidebar2{
+        width: 100%;
+        padding-top: 20px;
+        margin: 10px;
+    }
+    .sidebar2 input{
+        width: 90%;
+    }
+    .btn3{
+        width: 190px;
+        height: 45px;
+        font-size: 0.9em;
+
+    }
+    .luxury{
+        width: 100%;
+        height: 50vh;
+        padding-top: 20px;
+        margin: 10px;
+    }
+    .sidebar3{
+        width: 100%;
+        height: 40vh;
+        font-size: 1.2em;
+        padding-top: 20px;
+        margin: 10px;
+    }
+    .btn4{
+        width: 180px;
+        height: 35px;
+        font-size: 1em;
+    }
+    .cards2{
+        flex-direction: column;
+    }
+    .abc{
+        width: 100%;
+        height: 50vh;
+    }
+    .z-bg{
+        background-image: none;
+    }
+    .z-imgform{
+        width: 100%;
+        height: 50vh;
+        top: 1px;
+        left: 1%;
+        border-radius: 5px;
+    }
+    .form1{
+        width: 100%;
+        height: 50vh;
+        top: 3%;
+        left: 1%;
+        border-radius: 5px;
+    }
+    .form1 input{
+        height: 30px;
+    }
+    textarea{
+        height: 110px;
+    }
+
+
+  
+}
+
+@media (max-width: 460px) {
+    .bg-item>h1{
+        font-size: 1.7em;
+    }
+    .btn1,.btn2{
+        width: 130px;
+        height: 50px;
+    }
+    .box{
+        width: 100px;
+        font-size: 0.8em;
+        height: 75px;
+    }
+    .box >i{
+        padding-left: 85px;
+    }
+    .cards{
+        padding-top: 30%;
+    }
+    .sidebar3{
+        font-size: 1em;
+    }
+    .btn4{
+        width: 140px;
+    }
+    .heading-a{
+        font-size: 0.7em;
+    }
+    .bg-image{
+        height: 40vh;
+    }
+    .material{
+        font-size: 1.1em;
+        padding-top: 80px;
+    }
+    .z-image{
+
+    }
+
+
+
+
+}
